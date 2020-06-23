@@ -9,12 +9,64 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/background"
-        android:scaleType="centerCrop"/>
+        android:scaleType="centerCrop"
+        android:src="@drawable/background" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_above="@id/play_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="57dp"
         android:text="@string/hellWord"
-        android:textSize=""/>
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/play_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/playBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/high_score_text"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="45dp"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="45dp" />
+    
+    <ImageView
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:id="@+id/volume_up"
+        android:src="@drawable/ic_baseline_volume_up_24"
+        />
+
+    <ImageView
+        android:id="@+id/help"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp"
+        android:src="@drawable/ic_baseline_info_24" />
+
+    <ImageView
+        android:layout_width="138dp"
+        android:layout_height="134dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginBottom="72dp"
+        android:src="@drawable/trex_jump" />
 
 </RelativeLayout>

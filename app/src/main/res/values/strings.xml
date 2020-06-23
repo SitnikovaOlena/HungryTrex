@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">TRex</string>
-    <string name="hellWord">Story of hyngry t-rex</string>
+    <string name="hellWord">Story of hungry t-rex</string>
     <string name="playBtn">Play</string>
     <string name="highScore">High Score:</string>
     <string name="yourScore">Your Score:</string>

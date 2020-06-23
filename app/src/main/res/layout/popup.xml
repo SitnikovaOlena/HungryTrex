@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#B7B7B7">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:textSize="30sp"
+                android:text="How to play:"
+                android:id="@+id/title"/>
+
+            <ImageView
+                android:id="@+id/popup_pic"
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                android:layout_below="@+id/title"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/pop_up_pic" />
+
+
+            <TextView
+                android:layout_below="@+id/popup_pic"
+                android:id="@+id/first_parag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textSize="15sp"
+                android:layout_marginHorizontal="10dp"
+                android:text="In this game you need to get highes score.For that you t-rex needs to eat burgers. In order to contineu playing t-rex should avoid tumblweed plant."/>
+
+
+            <TextView
+                android:layout_below="@+id/first_parag"
+                android:id="@+id/second_parag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="2dp"
+                android:textSize="15sp"
+                android:layout_marginHorizontal="10dp"
+                android:text="      - To avoid plants press on the left side of your screen."/>
+
+            <TextView
+                android:layout_below="@+id/second_parag"
+                android:id="@+id/third_parag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="2dp"
+                android:textSize="15sp"
+                android:layout_marginHorizontal="10dp"
+                android:text="      - To eat burgers press on the right side of your screen."/>
+
+            <TextView
+                android:layout_below="@+id/third_parag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="Enjoy your game!"/>
+
+        </RelativeLayout>
+
+</ScrollView>
